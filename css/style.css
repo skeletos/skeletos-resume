@@ -521,7 +521,7 @@ a.top { float: right;}
     line-height: 24px;
   }
 
-a.print, a.top { display: none }
+.save, a.top { display: none }
 
 
 
