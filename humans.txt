@@ -9,5 +9,4 @@
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery, normalize.css
-  Software:
+  Components: Modernizr, jQuery, normalize.css, Mono Social Icons Font
