@@ -47,7 +47,7 @@ a:hover { color: #339ACC; }
 /* ===== general styles ========================================================= */
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
   background: #fefefe;
 }
 
@@ -66,9 +66,6 @@ h2 {
   color: #B3B3B3;
   margin: 0 0 10px 0;
 }
-
-
-
 
 header {
   padding: 20px 20px 0;
