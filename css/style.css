@@ -150,7 +150,7 @@ nav ul {
 }
 
   .contact li {
-    display: inline-block;
+    display: block;
     font-size: 1em;
     line-height: 28px;
   }
