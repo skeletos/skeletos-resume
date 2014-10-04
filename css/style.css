@@ -74,7 +74,7 @@ header {
 
 .save { position: absolute; right: 20px; top: 10px;}
 .save a { margin: 0 0 0 5px; }
-.save a:before { font-size: 130%;}
+.save a:before { font-size: 120%;}
 
 .presence {
   padding: 0 20px 10px;
@@ -131,7 +131,8 @@ nav ul {
     }
 
     nav .sections li a{
-      font-size: 0.8em;
+      font-size: 0.9em;
+      line-height: 2.2em;
       text-transform: uppercase;
       letter-spacing: 2px;
       border-bottom: 1px solid #fff;
@@ -156,7 +157,7 @@ nav ul {
     margin: 3px 0;
   }
 
-  .contact span.icon { margin: 2px 3px 0 0; }
+  .contact span.icon { margin: 2px 3px 0 0; color: #666; }
   .contact span.icon-mail-alt:before { font-size: 100%; } 
 
 .social {
@@ -215,16 +216,12 @@ ul.tag_list {
 
 ul.tag_list li {
   display: inline-block;
-  
-
   background: #eee;
-  
   background-color: #F0F0F0;
   border: 1px solid #DDDDDD;
-
   padding: 0 5px;
   line-height: 24px;
-  margin: 5px;
+  margin: 10px 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -306,6 +303,10 @@ footer {
     margin: 5px 0;
   }
 
+  nav .sections li a{
+      line-height: 1.3em;
+  }
+
   .presence {
     padding: 0 20px 5px;
   }
@@ -346,7 +347,7 @@ footer {
 
   main h2 { text-align: left; }
 
-  ul.text_list .title, ul.text_list .subtitle { display: inline-block; width: 50%; vertical-align: top; margin-top: 10px; }
+  ul.text_list .title, ul.text_list .subtitle { display: inline-block; width: 49.6%; vertical-align: top; margin-top: 5px; }
   ul.text_list .date { font-size: 1.0em; display: block;}
   ul.text_list .title, ul.text_list .subtitle { font-size: 1.2em; }
 
@@ -413,11 +414,11 @@ a.top { float: right;}
   }
 
   .definition_list dt {
-    width: 30%;
+    width: 25%;
   }
 
   .definition_list dd {
-    width: 67%;
+    width: 73%;
   }
 
 } /* min-width: 1024px */
@@ -453,6 +454,9 @@ a.top { float: right;}
     width: 100px;
     height: 100px;
     margin: 0 20px 0 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;    
   }
 
   header h1 {
@@ -500,16 +504,18 @@ a.top { float: right;}
 
   main h2 { text-align: left; font-size: 18px;}
 
-  ul.text_list .date, ul.text_list .title, ul.text_list .subtitle { font-size: 1.0em; display: inline-block; width: 33%; vertical-align: top; }
-  ul.text_list .title, ul.text_list .subtitle { font-size: 1.2em; }
+  ul.text_list .date { font-size: 1.0em; display: inline-block; width: 100%; vertical-align: top; }
+  ul.text_list .title, ul.text_list .subtitle { font-size: 1.2em; display: inline-block; width: 49%; vertical-align: top; }
 
   .definition_list dt {
     width: 15%;
     margin-right: 2%;
+    display: inline-block;
   }
 
   .definition_list dd {
     width: 82%;
+    display: inline-block;
   }
 
   .definition_list.two_cols dt {
@@ -519,7 +525,7 @@ a.top { float: right;}
   }
 
   .definition_list.two_cols dd {
-    width: 38%;
+    width: 37%;
     line-height: 24px;
   }
 
