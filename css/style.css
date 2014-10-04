@@ -197,8 +197,8 @@ main section h2 a { padding-top: 15px; }
 main section h2 a:hover { color: #006799; }
 
 ul.text_list {
-  margin: 0 0 10px 0;
-  padding: 0 0 10px 0;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
   list-style-type: none;
   border-bottom: 1px dashed #eee;
 }
@@ -235,22 +235,17 @@ ul.tag_list li {
 }
 
 .definition_list {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
   border-bottom: 1px dashed #eee;
 }
 
 .definition_list dt {
   font-weight: bold;
-  float: left;
-  text-align: right;
-  width: 30%;
-  margin-right: 2%;
+  text-align: left;
 }
 
 .definition_list dd {
-  float: left;
-  width: 67%;
   margin: 0;
 }
 
@@ -355,7 +350,8 @@ footer {
 
   main h2 { text-align: left; }
 
-  ul.text_list .date, ul.text_list .title, ul.text_list .subtitle { font-size: 1.0em; display: inline-block; width: 33%; vertical-align: top; }
+  ul.text_list .title, ul.text_list .subtitle { display: inline-block; width: 50%; vertical-align: top; margin-top: 10px; }
+  ul.text_list .date { font-size: 1.0em; display: block;}
   ul.text_list .title, ul.text_list .subtitle { font-size: 1.2em; }
 
   .definition_list dt {
