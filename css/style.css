@@ -242,7 +242,6 @@ ul.tag_list li {
 
 .definition_list dt {
   font-weight: bold;
-  text-align: left;
 }
 
 .definition_list dd {
@@ -355,11 +354,14 @@ footer {
   ul.text_list .title, ul.text_list .subtitle { font-size: 1.2em; }
 
   .definition_list dt {
+    float: left;
+    text-align: right;
     width: 15%;
     margin-right: 2%;
   }
 
   .definition_list dd {
+    float: left;
     width: 82%;
   }
 
@@ -413,6 +415,13 @@ a.top { float: right;}
     text-align: left;
   }
 
+  .definition_list dt {
+    width: 30%;
+  }
+
+  .definition_list dd {
+    width: 67%;
+  }
 
 } /* min-width: 1024px */
 
