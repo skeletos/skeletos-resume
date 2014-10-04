@@ -64,18 +64,18 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #B3B3B3;
-  margin: 10px 0;
+  margin: 0 0 10px 0;
 }
 
 
 
 
 header {
-  padding: 10px 20px 0;
+  padding: 20px 20px 0;
   position: relative;
 }
 
-.save { position: absolute; right: 15px; top: 10px;}
+.save { position: absolute; right: 20px; top: 10px;}
 .save a { margin: 0 0 0 5px; }
 .save a:before { font-size: 130%;}
 
@@ -195,6 +195,9 @@ main section {
 }
 
 main h2 { text-align: center; }
+
+main section h2 a { padding-top: 15px; }
+main section h2 a:hover { color: #006799; }
 
 ul.text_list {
   margin: 0 0 10px 0;
